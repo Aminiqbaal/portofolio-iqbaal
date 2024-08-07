@@ -1,15 +1,16 @@
 import React, { Component } from 'react';
 
+
 const Portofolio = () => {
     return (
         <div className='container mx-auto max-w-[1200px] p-3 overflow-hidden'>
             <div className="flex justify-between py-5 items-center">
                 <div className='font-secondary text-center font-bold mb-12'>
-                    <h4 className='text-secondary mb-3 text-[30px] text-left'>Recent</h4>
-                    <h4 className='text-secondary mb-3 text-[50px]'>Portofolio</h4>
+                    {/* <h4 className='text-secondary mb-3 text-[30px] text-left'>Recent</h4> */}
+                    <h4 className='text-secondary mb-3 text-[40px]'>Portofolio</h4>
                 </div>
                 <div className='font-secondary text-center font-bold mb-12'>
-                    <h4 className='text-secondary mb-0 text-[50px] text-right'>22</h4>
+                    <h4 className='text-secondary mb-0 text-[40px] text-right'>22</h4>
                     <h2 className='mb-3 text-[20px] text-right'>Complete Projects</h2>
                 </div>
             </div>
