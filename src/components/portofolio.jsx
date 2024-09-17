@@ -34,7 +34,7 @@ const Portofolio = () => {
                             <TabPanel>
                                 <div className='flex flex-col lg:flex-row items-start justify-between'>
                                     <div className='w-full'>
-                                        <div className='grid grid-cols-2 lg:grid-cols-2 gap-4 text-center'>
+                                        <div className='grid grid-cols-2 lg:grid-cols-4 gap-4 text-center'>
 
                                             <div className='w-full'>
                                                 <div className='bg-white h-full justify-center items-center flex rounded-lg overflow-hidden relative p-5 group'>
