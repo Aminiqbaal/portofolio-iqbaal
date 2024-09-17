@@ -14,7 +14,7 @@ const Portofolio = () => {
                     <h4 className='text-secondary mb-3 text-[40px]'>Portofolio</h4>
                 </div>
                 <div className='font-secondary text-center font-bold mb-12'>
-                    <h4 className='text-secondary mb-0 text-[40px] text-right'>22</h4>
+                    <h4 className='text-secondary mb-0 text-[40px] text-right'>20+</h4>
                     <h2 className='mb-3 text-[20px] text-right'>Complete Projects</h2>
                 </div>
             </div>
