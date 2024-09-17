@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import { BsFillMortarboardFill, BsCodeSlash } from "react-icons/bs";
+import { FaGraduationCap, FaLaptopCode, FaHouseUser } from "react-icons/fa";
 
 
 
@@ -34,7 +34,8 @@ const Experience = () => {
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
                         date="Dec 2023 - Juni 2024"
-                        iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                        iconStyle={{background: 'rgb(33, 150, 243)', color: '#fff'}}
+                        icon={<FaLaptopCode />}
                     >
                         <h3 className="vertical-timeline-element-title">System Analyst</h3>
                         <h4 className="vertical-timeline-element-subtitle">PT. Akomedia Asia</h4>
@@ -47,6 +48,7 @@ const Experience = () => {
                         className="vertical-timeline-element--work"
                         date="Jan 2023 - Dec 2023"
                         iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                        icon={<FaLaptopCode />}
                     >
                         <h3 className="vertical-timeline-element-title">ICT Engineer - System/Business Analyst</h3>
                         <h4 className="vertical-timeline-element-subtitle">PT. Garuda Maintenance Facility (GMF) Aero Asia</h4>
@@ -59,6 +61,7 @@ const Experience = () => {
                         className="vertical-timeline-element--work"
                         date="Oct 2022 - Dec 2022"
                         iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                        icon={<FaLaptopCode />}
                     >
                         <h3 className="vertical-timeline-element-title">System Analyst, System Support & Front End Developer</h3>
                         <h4 className="vertical-timeline-element-subtitle">RSUD. Dr. Soetomo Jawa Timur</h4>
@@ -70,6 +73,7 @@ const Experience = () => {
                         className="vertical-timeline-element--work"
                         date="Feb 2022 - Aug 2023"
                         iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                        icon={<FaLaptopCode />}
                     >
                         <h3 className="vertical-timeline-element-title">Software Engineer</h3>
                         <h4 className="vertical-timeline-element-subtitle">PT. Patigeni Mitra Sejati</h4>
@@ -81,6 +85,7 @@ const Experience = () => {
                         className="vertical-timeline-element--education"
                         date="Jan 2022"
                         iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+                        icon={<FaGraduationCap />}
                     >
                         <h3 className="vertical-timeline-element-title">Bachelor of Computer Science in Brawijaya University</h3>
                         <h4 className="vertical-timeline-element-subtitle">Bachelor Degree</h4>
@@ -92,6 +97,7 @@ const Experience = () => {
                         className="vertical-timeline-element--work"
                         date="Jul 2019 - Jan 2022"
                         iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                        icon={<FaLaptopCode />}
                     >
                         <h3 className="vertical-timeline-element-title">System Analyst & Software Engineer</h3>
                         <h4 className="vertical-timeline-element-subtitle">CV. Pastiijadi Digital Solutions</h4>
@@ -101,6 +107,7 @@ const Experience = () => {
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
                         iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
+                        icon={<FaHouseUser />}
                     />
                 </VerticalTimeline>
 

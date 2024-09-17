@@ -10,9 +10,9 @@ const Home=()=> {
     return  <div>
         <Header/>
         <Banner/>
+        <Experience/>
         <Profile/>
         <Portofolio/>
-        <Experience/>
         <Footer/>
     </div>
 }

@@ -27,12 +27,19 @@ const Banner = () => {
                         />
                     </div>
                 </div>
-                <div className='max-w-[750px] text-center mx-auto mt-5 '>
-                    My Name is Muhammad Amin Iqbaal Alam, S.Kom graduate Bachelor Degree of Informatics Engineering Brawijaya University. I have experience in developing software.
+                <div className='max-w-[750px] text-center mx-auto mt-2 '>
+                    My Name is Muhammad Amin Iqbaal Alam, S.Kom graduate Bachelor Technology of Informatics Engineering Brawijaya University. I have experience in developing software.
                 </div>
             </div>
-
+            <div className='flex flex-col lg:flex-row items-start justify-between'>
+                <div className='text-center w-full max-w-[400px] mx-auto mb-[50px]'>
+                    <div className='min-w-[300px] min-h-[300px] bg-gradient pt-[50px] rounded-full overflow-hidden'>
+                        <img src='/images/profile.png' alt='' />
+                    </div>
+                </div>
+            </div>
         </div>
+        
     )
 }
 export default Banner

@@ -3,23 +3,14 @@ import React, { Component } from 'react';
 const Profile = () => {
     return (
         <div className='container mx-auto max-w-[1200px] p-3 overflow-hidden'>
-            <div className='font-secondary text-center font-bold mb-12'>
-                <h4 className='text-secondary mb-3 text-[50px]'>Awesome Skills</h4>
+            <div className='text-center mb-12'>
+                <h4 className='font-secondary font-bold text-secondary mb-3 text-[50px]'>Awesome Skills</h4>
                 <div className='max-w-[750px] text-center mx-auto mt-5'>
                     Having knowledge of enterprise business systems such as ERP (Enterprise Resource Planning) like SAP, government services, telecommunication services, e-commerce, company profile, state-owned enterprise services, hospital management information system (SIMRS) dan Electronic Medical Records. I am a well-organized person and detail oriented. especially web based and mobile based. I am a disciplined person, can work in a team or individually and adapt to the environment.
                 </div>
             </div>
-            <div className='flex flex-col lg:flex-row items-start justify-between'>
-                <div className='text-center w-full max-w-[400px] mx-auto mb-[50px]'>
-                    <div className='min-w-[300px] min-h-[300px] bg-gradient pt-[50px] rounded-full overflow-hidden'>
-                        <img src='/images/profile.png' alt='' />
-                    </div>
-                    <div className='text-gradient text-[22px] mt-[20PX]'>
-                        Muhammad Amin Iqbaal Alam, S.Kom
-                    </div>
-                </div>
-                <div className='w-full lg:pt-[50px] lg:ml-[50px]'>
-                    <div className='grid grid-cols-2 lg:grid-cols-4 gap-4 text-center'>
+            <div className='w-full'>
+                    <div className='grid grid-cols-2 lg:grid-cols-6 gap-5 text-center'>
                         <div className='w-full'>
                             <div className='bg-white h-full justify-center items-center flex rounded-lg overflow-hidden relative p-5 group'>
                                 <img src='/images/2.png' alt='' />
@@ -226,8 +217,6 @@ const Profile = () => {
                         </div>
                     </div>
                 </div>
-
-            </div>
         </div>
     )
 }
