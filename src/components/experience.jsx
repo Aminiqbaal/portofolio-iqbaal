@@ -17,24 +17,10 @@ const Experience = () => {
 
             <div className='flex flex-col lg:flex-row items-start justify-between'>
                 <VerticalTimeline>
-                    {/* <VerticalTimelineElement
-                        className="vertical-timeline-element--work"
-                        date="2010 - 2011"
-                        contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                        contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-                        date="2011 - present"
-                        iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                    >
-                        <h3 className="vertical-timeline-element-title">System Analyst</h3>
-                        <h4 className="vertical-timeline-element-subtitle">PT. Akomedia Asia</h4>
-                        <p>
-                            Creative Direction, User Experience, Visual Design, Project Management, Team Leading
-                        </p>
-                    </VerticalTimelineElement> */}
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
-                        date="Dec 2023 - Juni 2024"
-                        iconStyle={{background: 'rgb(33, 150, 243)', color: '#fff'}}
+                        date="December 2023 - Jun 2024"
+                        iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                         icon={<FaLaptopCode />}
                     >
                         <h3 className="vertical-timeline-element-title">System Analyst</h3>
@@ -46,7 +32,7 @@ const Experience = () => {
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
-                        date="Jan 2023 - Dec 2023"
+                        date="January 2023 - December 2023"
                         iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                         icon={<FaLaptopCode />}
                     >
@@ -59,7 +45,7 @@ const Experience = () => {
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
-                        date="Oct 2022 - Dec 2022"
+                        date="October 2022 - December 2022"
                         iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                         icon={<FaLaptopCode />}
                     >
@@ -71,7 +57,7 @@ const Experience = () => {
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
-                        date="Feb 2022 - Aug 2023"
+                        date="February 2022 - August 2023"
                         iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                         icon={<FaLaptopCode />}
                     >
@@ -83,7 +69,7 @@ const Experience = () => {
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
                         className="vertical-timeline-element--education"
-                        date="Jan 2022"
+                        date="11 January 2022"
                         iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
                         icon={<FaGraduationCap />}
                     >
@@ -95,7 +81,7 @@ const Experience = () => {
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
-                        date="Jul 2019 - Jan 2022"
+                        date="July 2019 - January 2022"
                         iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                         icon={<FaLaptopCode />}
                     >
@@ -103,6 +89,18 @@ const Experience = () => {
                         <h4 className="vertical-timeline-element-subtitle">CV. Pastiijadi Digital Solutions</h4>
                         <p>
                             Documentation,  UI/UX Designer, analysis and testing
+                        </p>
+                    </VerticalTimelineElement>
+                    <VerticalTimelineElement
+                        className="vertical-timeline-element--work"
+                        date="April 2019 - July 2022"
+                        iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                        icon={<FaLaptopCode />}
+                    >
+                        <h3 className="vertical-timeline-element-title">Software Engineer Internship</h3>
+                        <h4 className="vertical-timeline-element-subtitle">PT. Avemedia Nusantara</h4>
+                        <p>
+                            Implementation code for development website and mobile, and discuss business requirement
                         </p>
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
