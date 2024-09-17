@@ -73,7 +73,7 @@ const Experience = () => {
                         iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
                         icon={<FaGraduationCap />}
                     >
-                        <h3 className="vertical-timeline-element-title">Bachelor of Computer Science in Brawijaya University</h3>
+                        <h3 className="vertical-timeline-element-title">Bachelor of Technology in Brawijaya University</h3>
                         <h4 className="vertical-timeline-element-subtitle">Bachelor Degree</h4>
                         <p>
                             Informatics Engineering
