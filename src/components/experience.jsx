@@ -17,6 +17,18 @@ const Experience = () => {
 
             <div className='flex flex-col lg:flex-row items-start justify-between'>
                 <VerticalTimeline>
+                <VerticalTimelineElement
+                        className="vertical-timeline-element--work"
+                        date="October 2024 - Now"
+                        iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                        icon={<FaLaptopCode />}
+                    >
+                        <h3 className="vertical-timeline-element-title">.NET Developer</h3>
+                        <h4 className="vertical-timeline-element-subtitle">PT. KaryaIndah Alam Segar (Wings Group)</h4>
+                        <p>
+                            Development desktop apps internal of PT. KaryaIndah Alam Segar (Wings Group)
+                        </p>
+                    </VerticalTimelineElement>
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
                         date="December 2023 - Jun 2024"
@@ -61,7 +73,7 @@ const Experience = () => {
                         iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                         icon={<FaLaptopCode />}
                     >
-                        <h3 className="vertical-timeline-element-title">Software Engineer</h3>
+                        <h3 className="vertical-timeline-element-title">Web and Mobile Developer</h3>
                         <h4 className="vertical-timeline-element-subtitle">PT. Patigeni Mitra Sejati</h4>
                         <p>
                             Implementation code for development website and mobile, and discuss business requirement
