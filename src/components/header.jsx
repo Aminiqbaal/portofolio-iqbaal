@@ -41,18 +41,19 @@ const Header = () => {
                     About
                 </a> */}
                 <a href='https://www.linkedin.com/in/aminiqbaal/' target="_blank">
-                    <CiLinkedin />
+                    <CiLinkedin style={{ fontSize: '30px' }} />
                 </a>
                 <a href='mailto:aminiqbaal@outlook.com' target="_blank">
-                    <CiMail />
+                    <CiMail style={{ fontSize: '30px' }} />
                 </a>
                 <a href='https://github.com/Aminiqbaal' target="_blank">
-                    <BsGithub />
+                    <BsGithub style={{ fontSize: '30px' }} />
                 </a>
+
             </div>
 
         </div>
     </div>
 
 }
-export default  Header
+export default Header
