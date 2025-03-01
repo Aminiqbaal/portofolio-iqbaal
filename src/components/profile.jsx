@@ -35,7 +35,7 @@ const Profile = () => {
                 {/* Slide 1 */}
                 <div className='bg-transparent h-full justify-center items-center flex rounded-lg overflow-hidden relative p-3 group'>
                     <img src='/images/2.png' alt='' style={{ width: '40%', height: 'auto', objectFit: 'contain' }} />
-                    <div className='absolute p-3 backdrop-blur-xl bg-primary w-[60%] h-full flex items-center opacity-0 scale-0 group-hover:scale-100 group-hover:opacity-100 transition ease-linier'>
+                    <div className='absolute p-3 backdrop-blur-xl bg-primary w-full h-full flex items-center opacity-0 scale-0 group-hover:scale-100 group-hover:opacity-100 transition ease-linier'>
                         <div className='text-center w-full text-white'>
                             <div className='bg-white rounded-full px-4 py-1 inline-block mb-2'>
                                 <h4 className='text-gradient'>
@@ -52,7 +52,7 @@ const Profile = () => {
                 {/* Slide 2 */}
                 <div className='bg-transparent h-full justify-center items-center flex rounded-lg overflow-hidden relative p-3 group'>
                     <img src='/images/1.png' alt='' style={{ width: '40%', height: 'auto', objectFit: 'contain' }} />
-                    <div className='absolute p-3 backdrop-blur-xl bg-primary w-[60%] h-full flex items-center opacity-0 scale-0 group-hover:scale-100 group-hover:opacity-100 transition ease-linier'>
+                    <div className='absolute p-3 backdrop-blur-xl bg-primary w-full h-full flex items-center opacity-0 scale-0 group-hover:scale-100 group-hover:opacity-100 transition ease-linier'>
                         <div className='text-center w-full text-white'>
                             <div className='bg-white rounded-full px-4 py-1 inline-block mb-2'>
                                 <h4 className='text-gradient'>
@@ -69,7 +69,7 @@ const Profile = () => {
                 {/* Slide 3 */}
                 <div className='bg-transparent h-full justify-center items-center flex rounded-lg overflow-hidden relative p-3 group'>
                     <img src='/images/3.png' alt='' style={{ width: '40%', height: 'auto', objectFit: 'contain' }} />
-                    <div className='absolute p-3 backdrop-blur-xl bg-primary w-[60%] h-full flex items-center opacity-0 scale-0 group-hover:scale-100 group-hover:opacity-100 transition ease-linier'>
+                    <div className='absolute p-3 backdrop-blur-xl bg-primary w-full h-full flex items-center opacity-0 scale-0 group-hover:scale-100 group-hover:opacity-100 transition ease-linier'>
                         <div className='text-center w-full text-white'>
                             <div className='bg-white rounded-full px-4 py-1 inline-block mb-2'>
                                 <h4 className='text-gradient'>
@@ -86,7 +86,7 @@ const Profile = () => {
                 {/* Slide 4 */}
                 <div className='bg-transparent h-full justify-center items-center flex rounded-lg overflow-hidden relative p-3 group'>
                     <img src='/images/4.png' alt='' style={{ width: '40%', height: 'auto', objectFit: 'contain' }} />
-                    <div className='absolute p-3 backdrop-blur-xl bg-primary w-[60%] h-full flex items-center opacity-0 scale-0 group-hover:scale-100 group-hover:opacity-100 transition ease-linier'>
+                    <div className='absolute p-3 backdrop-blur-xl bg-primary w-[80%] max-w-[400px] h-full flex items-center opacity-0 scale-0 group-hover:scale-100 group-hover:opacity-100 transition ease-linier'>
                         <div className='text-center w-full text-white'>
                             <div className='bg-white rounded-full px-4 py-1 inline-block mb-2'>
                                 <h4 className='text-gradient'>
@@ -103,7 +103,7 @@ const Profile = () => {
                 {/* Slide 5 */}
                 <div className='bg-transparent h-full justify-center items-center flex rounded-lg overflow-hidden relative p-3 group'>
                     <img src='/images/5.png' alt='' style={{ width: '40%', height: 'auto', objectFit: 'contain' }} />
-                    <div className='absolute p-3 backdrop-blur-xl bg-primary w-[60%] h-full flex items-center opacity-0 scale-0 group-hover:scale-100 group-hover:opacity-100 transition ease-linier'>
+                    <div className='absolute p-3 backdrop-blur-xl bg-primary w-[80%] max-w-[400px] h-full flex items-center opacity-0 scale-0 group-hover:scale-100 group-hover:opacity-100 transition ease-linier'>
                         <div className='text-center w-full text-white'>
                             <div className='bg-white rounded-full px-4 py-1 inline-block mb-2'>
                                 <h4 className='text-gradient'>
@@ -120,7 +120,7 @@ const Profile = () => {
                 {/* Slide 6 */}
                 <div className='bg-transparent h-full justify-center items-center flex rounded-lg overflow-hidden relative p-3 group'>
                     <img src='/images/6.png' alt='' style={{ width: '40%', height: 'auto', objectFit: 'contain' }} />
-                    <div className='absolute p-3 backdrop-blur-xl bg-primary w-[60%] h-full flex items-center opacity-0 scale-0 group-hover:scale-100 group-hover:opacity-100 transition ease-linier'>
+                    <div className='absolute p-3 backdrop-blur-xl bg-primary w-[80%] max-w-[400px] h-full flex items-center opacity-0 scale-0 group-hover:scale-100 group-hover:opacity-100 transition ease-linier'>
                         <div className='text-center w-full text-white'>
                             <div className='bg-white rounded-full px-4 py-1 inline-block mb-2'>
                                 <h4 className='text-gradient'>
@@ -137,7 +137,7 @@ const Profile = () => {
                 {/* Slide 7 */}
                 <div className='bg-transparent h-full justify-center items-center flex rounded-lg overflow-hidden relative p-3 group'>
                     <img src='/images/7.png' alt='' style={{ width: '40%', height: 'auto', objectFit: 'contain' }} />
-                    <div className='absolute p-3 backdrop-blur-xl bg-primary w-[60%] h-full flex items-center opacity-0 scale-0 group-hover:scale-100 group-hover:opacity-100 transition ease-linier'>
+                    <div className='absolute p-3 backdrop-blur-xl bg-primary w-[80%] max-w-[400px] h-full flex items-center opacity-0 scale-0 group-hover:scale-100 group-hover:opacity-100 transition ease-linier'>
                         <div className='text-center w-full text-white'>
                             <div className='bg-white rounded-full px-4 py-1 inline-block mb-2'>
                                 <h4 className='text-gradient'>
@@ -154,7 +154,7 @@ const Profile = () => {
                 {/* Slide 8 */}
                 <div className='bg-transparent h-full justify-center items-center flex rounded-lg overflow-hidden relative p-3 group'>
                     <img src='/images/8.png' alt='' style={{ width: '40%', height: 'auto', objectFit: 'contain' }} />
-                    <div className='absolute p-3 backdrop-blur-xl bg-primary w-[60%] h-full flex items-center opacity-0 scale-0 group-hover:scale-100 group-hover:opacity-100 transition ease-linier'>
+                    <div className='absolute p-3 backdrop-blur-xl bg-primary w-[80%] max-w-[400px] h-full flex items-center opacity-0 scale-0 group-hover:scale-100 group-hover:opacity-100 transition ease-linier'>
                         <div className='text-center w-full text-white'>
                             <div className='bg-white rounded-full px-4 py-1 inline-block mb-2'>
                                 <h4 className='text-gradient'>
@@ -171,7 +171,7 @@ const Profile = () => {
                 {/* Slide 9 */}
                 <div className='bg-transparent h-full justify-center items-center flex rounded-lg overflow-hidden relative p-3 group'>
                     <img src='/images/9.png' alt='' style={{ width: '40%', height: 'auto', objectFit: 'contain' }} />
-                    <div className='absolute p-3 backdrop-blur-xl bg-primary w-[60%] h-full flex items-center opacity-0 scale-0 group-hover:scale-100 group-hover:opacity-100 transition ease-linier'>
+                    <div className='absolute p-3 backdrop-blur-xl bg-primary w-[80%] max-w-[400px] h-full flex items-center opacity-0 scale-0 group-hover:scale-100 group-hover:opacity-100 transition ease-linier'>
                         <div className='text-center w-full text-white'>
                             <div className='bg-white rounded-full px-4 py-1 inline-block mb-2'>
                                 <h4 className='text-gradient'>
@@ -188,7 +188,7 @@ const Profile = () => {
                 {/* Slide 10 */}
                 <div className='bg-transparent h-full justify-center items-center flex rounded-lg overflow-hidden relative p-3 group'>
                     <img src='/images/10.png' alt='' style={{ width: '40%', height: 'auto', objectFit: 'contain' }} />
-                    <div className='absolute p-3 backdrop-blur-xl bg-primary w-[60%] h-full flex items-center opacity-0 scale-0 group-hover:scale-100 group-hover:opacity-100 transition ease-linier'>
+                    <div className='absolute p-3 backdrop-blur-xl bg-primary w-[80%] max-w-[400px] h-full flex items-center opacity-0 scale-0 group-hover:scale-100 group-hover:opacity-100 transition ease-linier'>
                         <div className='text-center w-full text-white'>
                             <div className='bg-white rounded-full px-4 py-1 inline-block mb-2'>
                                 <h4 className='text-gradient'>
